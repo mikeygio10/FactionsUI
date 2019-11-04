@@ -18,7 +18,7 @@ class Main extends PluginBase implements Listener{
     public function onCommand(CommandSender $sender, Command $command, string $label, array $args) : bool{
         $player = $sender->getPlayer();
         switch($command->getName()){
-            case "fui":
+            case "fac":
                 $this->menuForm($player);
         }
         return true;
